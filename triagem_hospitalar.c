@@ -1,3 +1,7 @@
+// Sistema de Triagem Hospitalar
+// Uso de filas com prioridade
+// Autor: Beatriz Gimenez
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -71,7 +75,7 @@ char* nomePrioridade(int p) {
     }
 }
 
-// ================= HISTÓRICO =================
+// ================= HISTÃ“RICO =================
 
 void adicionarHistorico(char historico[][100], char texto[]) {
     for (int i = MAX_HIST - 1; i > 0; i--) {
